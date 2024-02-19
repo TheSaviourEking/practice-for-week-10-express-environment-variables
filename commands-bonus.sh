@@ -16,6 +16,6 @@ node app.js
 # Install `dotenv-cli`
 npm install dotenv-cli
 # Run dotenv in the command-line then start the server
-dotenv node app.js
+dotenv node app.js // I did npx dotenv node app.js instead
 # Navigate to localhost:5000 to see secret message
 # Should see "Hello from .env"
